@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Flatpak—the future of application distribution
+</title>
+<meta content='text/html; charset=UTF8' http-equiv='content-type'>
+<meta content='The days of chasing multiple Linux distributions are over. Standalone apps for Linux are here!' name='description'>
+<meta content='bundle,application,runtime,flatpak,xdg-app' name='keywords'>
+<meta content='width=device-width,initial-scale=1' name='viewport'>
+<link href='img/favicon-1cea864f.png' rel='icon' type='image/png'>
+<link href='/favicon.ico' rel='shortcut icon' type='image/x-icon'>
+<link href='img/favicon57-e0ae9065.png' rel='apple-touch-icon' sizes='57x57'>
+<link href='img/favicon152-b763d5eb.png' rel='apple-touch-icon' sizes='152x152'>
+<link href="/stylesheets/fonts-a7988555.css" rel="stylesheet" />
+<link href="/stylesheets/site-f8bc8104.css" rel="stylesheet" />
+<link href="/stylesheets/animate-d5bcb5d2.css" rel="stylesheet" />
+<!-- = stylesheet_link_tag "http://overpass-30e2.kxcdn.com/overpass.css" -->
+</head>
+<script src="/javascripts/jquery-2.2.4.min-bb1345ce.js"></script>
+<script src="/javascripts/jquery.easing.min-e0e04b3b.js"></script>
+<script src="/javascripts/jquery.toc.min-3cb5b0f6.js"></script>
+<script src="/javascripts/bootstrap-c4c290eb.js"></script>
+<script src="/javascripts/all-7d0b8b47.js"></script>
+<script type="text/javascript">
+  var _paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//webstats.gnome.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '13']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<img src="//webstats.gnome.org/matomo.php?idsite=13&amp;rec=1" style="border:0" alt="" />
+
+<body id='page-top'>
+<nav class='navbar navbar-default navbar-fixed-top' id='mainNav'>
+<div class='container-fluid'>
+<!-- Brand and toggle get grouped for better mobile display -->
+<div class='navbar-header'>
+<button class='navbar-toggle collapsed' data-target='#bs-example-navbar-collapse-1' data-toggle='collapse' type='button'>
+<span class='sr-only'>Toggle navigation</span>
+<span class='icon-bar'></span>
+<span class='icon-bar'></span>
+<span class='icon-bar'></span>
+</button>
+<a class="navbar-brand page-scroll" href="/">Flatpak</a>
+</div>
+<div class='collapse navbar-collapse' id='bs-example-navbar-collapse-1'>
+<ul class='nav navbar-nav navbar-right'>
+<li>
+<a class="page-scroll" href="/about/">About Us & Contact</a>
+</li>
+</ul>
+<!-- /.navbar-collapse -->
+</div>
+
+</div>
+<!-- /.container-fluid -->
+</nav>
+</body>
+<section class='imagebanner centered'>
+<div class='container'>
+<div class='row largegap'>
+<div class='col-lg-12'>
+<h1 class='section-heading'>
+The future of
+<span class='emphasize'>apps on Linux</span>
+</h1>
+<p>Flatpak is a next-generation technology for building and distributing desktop applications on Linux</p>
+</div>
+</div>
+</div>
+</section>
+<section class='illustration centered'>
+<div class='container'>
+<div class='row'>
+<div class='col-lg-8 col-lg-offset-2'>
+<img src="/img/delivery_truck2-bb72338f.png" />
+</div>
+</div>
+</div>
+</section>
+<section class='bg-secondary' id='appsplash'>
+<div class='container'>
+<div class='row'>
+<div class='col-sm-6 col-sm-offset-1'>
+<h3>
+Start using Flatpak and install from a growing collection of apps
+</h3>
+<div class='appgrid'>
+<div class='icon featured' style='background-image: url(https://flathub.org/repo/appstream/x86_64/icons/128x128/org.telegram.desktop.png)'></div>
+<div class='icon' style='background-image: url(https://lh3.googleusercontent.com/Dq-mZ5mmdE6aFPeD61DNlVTwYSI75UwHBYDq_BxBZOMSzCBnQ5OCC4-LjfP42tDlyw=w64)'></div>
+<div class='icon featured' style='background-image: url(https://flathub.org/repo/appstream/x86_64/icons/128x128/org.inkscape.Inkscape.png)'></div>
+<div class='icon' style='background-image: url(https://lh3.googleusercontent.com/UrY7BAZ-XfXGpfkeWg0zCCeo-7ras4DCoRalC_WXXWTK9q5b0Iw7B0YQMsVxZaNB7DM=w64)'></div>
+<div class='icon featured' style='background-image: url(https://flathub.org/repo/appstream/x86_64/icons/128x128/com.valvesoftware.Steam.png)'></div>
+<div class='icon featured' style='background-image: url(https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gimp.GIMP.png)'></div>
+<div class='icon featured' style='background-image: url(https://flathub.org/repo/appstream/x86_64/icons/128x128/io.atom.Atom.png)'></div>
+</div>
+</div>
+<div class='col-sm-4 col-sm-offset-1 centered'>
+<a class='btn-default btn btn-xl page-scroll' href='/setup' id='quicksetupbtn'>Get setup</a>
+<p class='small mediumgap'>
+Already set up? Head over to
+<a href="https://flathub.org">Flathub</a>
+to install some apps.
+</p>
+</div>
+</div>
+</div>
+</section>
+<section class='bg-primary-neutral'>
+<div class='container'>
+<div class='row centered'>
+<div class='col-sm-10 col-sm-offset-1'>
+<iframe allowfullscreen='true' frameborder='0' height='440' src='https://www.youtube.com/embed/jDVCITRWGgs' width='100%'>
+<a href="https://youtu.be/jDVCITRWGgs">Flatpak 1.0</a>
+</iframe>
+</div>
+</div>
+<div class='row centered'>
+<div class='col-sm-6 col-sm-offset-3'>
+<h2>A new world for application developers</h2>
+<p>Flatpak changes app distribution for the better. Advantages include:</p>
+</div>
+</div>
+<div class='row largegap'>
+<div class='col-sm-5 col-sm-offset-1'>
+<h4>Build for every distro</h4>
+<p>Create one app and distribute it to the entire Linux desktop market.</p>
+</div>
+<div class='col-sm-5'>
+<h4>Stable platforms</h4>
+<p>Runtimes provide platforms of common libraries that you can depend on.</p>
+</div>
+</div>
+<div class='row'>
+<div class='col-sm-5 col-sm-offset-1'>
+<h4>Consistent environments</h4>
+<p>Develop and test your application in an environment that’s identical to the one users have.</p>
+</div>
+<div class='col-sm-5'>
+<h4>Full control over dependencies</h4>
+<p>Flatpak makes it easy to bundle your own libraries as part of your app.</p>
+</div>
+</div>
+<div class='row'>
+<div class='col-sm-5 col-sm-offset-1'>
+<h4>Easy build tools</h4>
+<p>
+Flatpak’s build tools are simple and easy to use, and come with a
+<a href="http://docs.flatpak.org/">full set of documentation.</a>
+</p>
+</div>
+<div class='col-sm-5'>
+<h4>Future-proof builds</h4>
+<p>Flatpak apps continue to be compatible with new versions of Linux distributions.</p>
+</div>
+</div>
+<div class='row'>
+<div class='col-sm-5 col-sm-offset-1'>
+<h4>Distribution made easy</h4>
+<p>
+Make your app available to a rapidly growing audience of Flatpak users, with
+<a href="https://flathub.org/">Flathub.</a>
+</p>
+</div>
+<div class='col-sm-5'>
+<h4>An independent project</h4>
+<p>Flatpak is developed by an independent community, with no lock-in to a single vendor.</p>
+</div>
+</div>
+<div class='row largegap'>
+<div class='col-sm-6 col-sm-offset-4'>
+<a class='btn btn-default btn-xl page-scroll' href='http://docs.flatpak.org/en/latest/getting-started.html'>5 minute tutorial</a>
+<a class='btn btn-primary btn-xl page-scroll' href='http://docs.flatpak.org/en/latest/'>Developer guide</a>
+</div>
+</div>
+</div>
+</section>
+<section class='bg-secondary' id='devsplash'>
+<div class='container'>
+<div class='row largegap'>
+<div class='col-sm-5 col-sm-offset-1'>
+<h3>
+Flatpak can be used with a total of
+22
+distros
+</h3>
+<p>
+See the
+<a href="/setup">complete list.</a>
+</p>
+</div>
+<div class='col-sm-6'>
+<div class='distrogrid'>
+<div class='icon' style='background-image: url(/img/distro/ubuntu-eaa9a8e4.svg)'></div>
+<div class='icon' style='background-image: url(/img/distro/fedora-74442e50.svg)'></div>
+<div class='icon' style='background-image: url(/img/distro/endless-4785bd9f.svg)'></div>
+<div class='icon' style='background-image: url(/img/distro/chrome-os-3f767891.svg)'></div>
+<div class='icon' style='background-image: url(/img/distro/redhat-cea34399.svg)'></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class='bg-primary'>
+<div class='container'>
+<div class='row centered'>
+<div class='col-sm-6 col-sm-offset-3'>
+<h2>What people are saying about Flatpak</h2>
+</div>
+</div>
+<div class='row largegap'>
+<div class='col-sm-5 col-sm-offset-1'>
+<blockquote>
+<p>
+Bringing Flatpak technology into Debian enables us to run applications in a predictable environment with their most suitable library stack, without compromising the base OS's stability and flexibility.
+</p>
+<div class='author'>
+<em>Simon McVittie</em>
+<div class='title'>Senior Software Engineer, Collabora</div>
+</div>
+</blockquote>
+</div>
+<div class='col-sm-5'>
+<blockquote>
+<p>
+At Endless, we’re proud to be a part of this movement and have fully embraced Flatpak by readily converting all of our applications for our upcoming release and continuing to build new Flatpak apps.
+</p>
+<div class='author'>
+<em>Jonathan Blandford</em>
+<div class='title'>VP of Software Engineering, Endless</div>
+</div>
+</blockquote>
+</div>
+</div>
+<div class='row'>
+<div class='col-sm-5 col-sm-offset-1'>
+<blockquote>
+<p>
+The Fedora Workstation team are very excited about Flatpak and the prospects it brings for making the Linux desktop easier to develop for. We plan to continue supporting this effort going forward.
+</p>
+<div class='author'>
+<em>Christian F.K. Schaller</em>
+<div class='title'>Senior Manager, Red Hat</div>
+</div>
+</blockquote>
+</div>
+<div class='col-sm-5'>
+<blockquote>
+<p>
+Flatpak will enable us (as a Linux ISV) to distribute a better LibreOffice, with up-to-date dependencies and a platform that can run on many systems. I’m excited to see that happen.
+</p>
+<div class='author'>
+<em>Michael Meeks</em>
+<div class='title'>Director, The Document Foundation</div>
+</div>
+</blockquote>
+</div>
+</div>
+</div>
+</section>
+
+<section class='bg-black' id='footer'>
+<div class='container'>
+<div class='row'>
+<div class='col-lg-3 col-lg-offset-1 col-sm-3 hidden-xs'>
+<a class='navbar-brand page-scroll' href='#page-top'>
+<img title="Flatpak" class="full" src="/img/logo-5bc540c2.svgz" />
+</a>
+</div>
+<ul class='col-lg-7 col-lg-offset-0 col-sm-8 col-sm-offset-0 col-xs-7 col-xs-offset-2'>
+<li class='toplevel'>
+<a href="/">Home</a>
+</li>
+<li class='toplevel'>
+<!-- id links on index page -->
+<a class="page-scroll" href="/setup/">Get Setup</a>
+</li>
+<li class='toplevel'>
+<!-- id links on index page -->
+<a class="page-scroll" href="https://flathub.org/">Browse Apps &#8599;</a>
+</li>
+<li class='toplevel'>
+<!-- id links on index page -->
+<a class="page-scroll" href="http://docs.flatpak.org/">Developer guide &#8599;</a>
+</li>
+<li class='toplevel'>
+<!-- id links on index page -->
+<a class="page-scroll" href="/press/">Press</a>
+</li>
+<li class='toplevel'>
+<!-- id links on index page -->
+<a class="page-scroll" href="/faq/">FAQ</a>
+</li>
+<li class='toplevel'>
+<!-- id links on index page -->
+<a class="page-scroll" href="/presentations/">Presentations & Articles</a>
+</li>
+<li class='toplevel'>
+<!-- id links on index page -->
+<a class="page-scroll" href="/blog-posts/">Blog Posts</a>
+</li>
+<li class='toplevel'>
+<!-- id links on index page -->
+<a class="page-scroll" href="/about/">About Us & Contact</a>
+</li>
+</ul>
+<div class='col-lg-1 col-sm-1 col-xs-1'>
+<a href="https://twitter.com/FlatpakApps">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   viewBox="0 0 32 32"
+   height="32"
+   width="32"
+   xml:space="preserve"
+   version="1.1"
+   id="svg7466"><metadata
+     id="metadata7472"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+     id="defs7470" /><g
+     transform="matrix(1.25,0,0,-1.25,0,31.999997)"
+     id="g7474"><g
+       style="fill:#888a85"
+       transform="matrix(0.01061022,0,0,0.01061022,2.4158526,3.6660266)"
+       id="twitterbird"><path
+         id="path7478"
+         style="fill:#888a85;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         d="m 2000,1432.96 c -73.58,-32.64 -152.67,-54.69 -235.66,-64.61 84.7,50.78 149.77,131.19 180.41,227.01 -79.29,-47.03 -167.1,-81.17 -260.57,-99.57 -74.84,79.75 -181.48,129.57 -299.5,129.57 -226.6,0 -410.328,-183.71 -410.328,-410.31 0,-32.16 3.628,-63.48 10.625,-93.51 -341.016,17.11 -643.368,180.47 -845.739,428.72 -35.324,-60.6 -55.5583,-131.09 -55.5583,-206.29 0,-142.36 72.4373,-267.95 182.5433,-341.53 -67.262,2.13 -130.535,20.59 -185.8519,51.32 -0.0391,-1.71 -0.0391,-3.42 -0.0391,-5.16 0,-198.803 141.441,-364.635 329.145,-402.342 -34.426,-9.375 -70.676,-14.395 -108.098,-14.395 -26.441,0 -52.145,2.578 -77.203,7.364 C 276.391,476.219 427.926,357.578 607.48,354.281 467.051,244.219 290.129,178.621 97.8828,178.621 64.7617,178.621 32.0977,180.57 0,184.359 181.586,67.9414 397.27,0 628.988,0 1383.72,0 1796.45,625.238 1796.45,1167.47 c 0,17.79 -0.41,35.48 -1.2,53.08 80.18,57.86 149.74,130.12 204.75,212.41" /></g></g></svg>
+</a>
+<style>
+  #twitterbird path { transition: fill 400ms ease-in-out; }
+  #twitterbird path:hover { fill: #fff !important; }
+</style>
+</div>
+</div>
+</div>
+</section>
+
+</html>
